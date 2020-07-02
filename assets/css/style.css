@@ -5,20 +5,19 @@
     height: 160px;
 }
 
-.header-container{
-    display: inline-block;
+h1{
+    color:#ebebeb;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
 }
 
-.test{
-    background-color: red;
+/*------------------Colours----------------*/
+.background-color--black{
+    background-color: #423e37;
 }
-
-.test2{
-    background-color: blue;
-
+.background-color--gold{
+    background-color: #e0a929;
 }
-
-
-.test3{
-    background-color: green;
+.background-color--platinum{
+    background-color: #ebebeb;
 }
