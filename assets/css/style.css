@@ -1,3 +1,24 @@
-body{
-    color:red;
+/*-------Header Styles--------*/
+
+.logo{
+    width: 160px;
+    height: 160px;
+}
+
+.header-container{
+    display: inline-block;
+}
+
+.test{
+    background-color: red;
+}
+
+.test2{
+    background-color: blue;
+
+}
+
+
+.test3{
+    background-color: green;
 }
