@@ -51,6 +51,9 @@ h1{
     border-style:none;
 }
 
+#sign-up-btn{
+    margin-right: 40px;
+}
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -81,10 +84,36 @@ h1{
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    line-height: 25px;
 }
 
 .btn-standard:hover,
 .btn-standard:active{
     background-color: #ebebeb;
   
+}
+
+/*------------------Media--------------------*/
+@media only screen and (max-width:1024px){
+    h1{
+        font-size:28px;
+        margin: 30px auto;
+    }
+
+    .nav-holder{
+        margin:5px 40px 5px 110px;
+
+        font-size: 16px;
+    }
+
+
+    #membership-link{
+        margin-left:20px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    #membership-link{
+        margin-left:0px;
+    }
 }
