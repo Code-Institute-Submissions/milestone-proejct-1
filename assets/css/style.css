@@ -50,9 +50,25 @@ h1{
     -webkit-transition: all .5s ease-in-out;
 }
 
+#dropdown-menu li a
+{
+    white-space: nowrap;
+    color:#0f0f0f;
+    text-align: center;
+    overflow: scroll;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 .nav-holder li a:hover, .nav-holder li a:hover:active{
     color:#ffec00;
     border-color:#ffec00;
+}
+
+#dropdown-menu li a:hover, #dropdown-menu li a:focus,  #dropdown-menu li a:active
+{
+    color:#ffec00;
 }
 
 .active{
@@ -161,11 +177,33 @@ footer p{
     }
 
     .nav-holder{
-        padding-left:100px;
-        font-size: 20px;
+        white-space: nowrap;
+    }
+    .nav-holder li a{
+        font-size:18px;
     }
 }
 
+@media only screen and (max-width:768px){
+    .h1-container{
+        padding-right:100px;
+    }
+    
+    h1{
+        font-size:25px;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .nav-holder{
+        padding-left:5px;
+        padding-right: 20px;
+        white-space: nowrap;
+    }
+    .nav-holder li a{
+        font-size:16px;
+    }
+}
 @media only screen and (max-width:576px){
     #membership-link{
         margin-left:0px;
