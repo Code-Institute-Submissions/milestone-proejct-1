@@ -44,9 +44,6 @@ h1{
     margin:auto auto;
 }
 
-.home-nav{
-    background:transparent;
-}
 
 .nav-holder li a{
     color:#fff;
@@ -215,6 +212,14 @@ footer p{
     .nav-holder li a{
         font-size:18px;
     }
+    #carouselExampleIndicators{
+    width:100%;
+    max-height:100vh;
+}
+
+.carousel-item{
+    height:500px;
+}
 }
 
 @media only screen and (max-width:768px){
@@ -265,9 +270,24 @@ footer p{
         background-color: #0f0f0f;
         border-bottom: 5px solid #ffec00;
     }
-    .nav-holder li a{
-        white-space: normal;
-        display: block;
-        overflow: hidden;
-}
+   h1{
+       font-size: 22px;
+       padding:0;
+       margin-top:20px;
+   }
+
+   .navbar{
+       margin-top:-90px;
+   }
+
+   .navbar-toggler-icon{
+       margin-top:10px;
+       border: 1px solid #ebebeb;
+   }
+
+   .list-inline-item{
+       display: block;
+       text-align: right;
+       margin: 0 auto;
+   }
 }
