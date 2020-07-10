@@ -283,6 +283,7 @@ footer p{
 
     .nav-holder{
         white-space: nowrap;
+        margin-right:150px;
     }
     .nav-holder li a{
         font-size:18px;
@@ -293,7 +294,11 @@ footer p{
 }
 
 .carousel-item{
-    height:450px;
+    height:600px;
+}
+
+.testiomnial-container{
+    margin:0;
 }
 
  .testimonial-img img{
@@ -305,12 +310,25 @@ footer p{
 .testimonial-item{
     margin-right:40px;
 }
+.hero-caption{
+    margin-left:30px;
+    margin-bottom: 75px;
+}
+.hero-caption h5{
+    font-size: 20px;
+}
+
+.btn-hero{
+    font-size:14px;
+    height:35px;
+    width:150px;
+}
 
 }
 
 @media only screen and (max-width:768px){
     .h1-container{
-        padding-right:100px;
+        padding-right:180px;
     }
     
     h1{
@@ -327,10 +345,23 @@ footer p{
     .nav-holder li a{
         font-size:16px;
     }
+    .carousel-item img{
+     height:100%;
+}
+.logo{
+    height:100px;
+    width:120px;
+    padding-left:20px;
+    padding-top:10px;
+}
 }
 @media only screen and (max-width:576px){
   
     
+    
+    .nav-holder{
+        margin-right:0px;
+    }
     .footer-item p{
     font-size: 16px; 
     }
