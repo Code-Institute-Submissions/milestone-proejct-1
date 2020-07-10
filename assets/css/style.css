@@ -98,14 +98,14 @@ h1{
     z-index:9;
 }
 
-#carouselExampleIndicators{
+.carousel-inner{
     margin-top: -250px;
     width:100%;
     max-height:100vh;
 }
 
 .carousel-item{
-    height:100vh;
+    height:100%;
 }
 /* This solution to altering a carousel to dull the image was found at https://stackoverflow.com/questions/44463690/darkening-a-background-image-on-a-bootstrap-carousel */
 .carousel-item:after{
@@ -119,8 +119,8 @@ h1{
 }
 
 .hero-caption{
-    margin-bottom: 200px;
-}
+    margin-bottom:500px;
+    }
 
 .hero-caption h5{
     font-weight:bold;
@@ -271,8 +271,14 @@ footer p{
 
 /*------------------Media--------------------*/
 @media only screen and (max-width:1024px){
+    
+    .logo{
+        height:120px;
+        width:120px;
+    }
+    
     .h1-container{
-        padding-right:200px;
+        padding-right:180px;
     }
     
     h1{
@@ -283,14 +289,13 @@ footer p{
 
     .nav-holder{
         white-space: nowrap;
-        margin-right:150px;
+        padding-right:150px;
     }
     .nav-holder li a{
         font-size:18px;
     }
     #carouselExampleIndicators{
     width:100%;
-    max-height:100vh;
 }
 
 .carousel-item{
@@ -328,7 +333,7 @@ footer p{
 
 @media only screen and (max-width:768px){
     .h1-container{
-        padding-right:180px;
+        margin-right:180px;
     }
     
     h1{
@@ -339,7 +344,6 @@ footer p{
 
     .nav-holder{
         padding-left:5px;
-        padding-right: 20px;
         white-space: nowrap;
     }
     .nav-holder li a{
@@ -347,6 +351,7 @@ footer p{
     }
     .carousel-item img{
      height:100%;
+     width:100%;
 }
 .logo{
     height:100px;
@@ -356,11 +361,30 @@ footer p{
 }
 }
 @media only screen and (max-width:576px){
+
+    .logo{
+        margin-left:10px;
+        height:75px;
+        width:75px;
+        padding:0;
+    }
+
+    .h1-container{
+        padding-right:0;
+        margin-top:-70px;
+        margin-left:40px;
+    }
+
+    .h1{
+        margin-top:0px;
+        margin-right: 30px;
+        }
   
-    
-    
+
     .nav-holder{
-        margin-right:0px;
+        margin-left:0px;
+        margin-right:-120px;
+        padding-right: 50px;
     }
     .footer-item p{
     font-size: 16px; 
@@ -379,6 +403,10 @@ footer p{
     .carousel-item{
         height:250px;
     }
+
+    .carousel-inner{
+        margin-top:0;}
+
     #home-header{
         background-color: #0f0f0f;
         border-bottom: 5px solid #ffec00;
@@ -395,6 +423,7 @@ footer p{
 
    .navbar-toggler-icon{
        margin-top:10px;
+       margin-right:-150px;
        border: 1px solid #ebebeb;
    }
 
