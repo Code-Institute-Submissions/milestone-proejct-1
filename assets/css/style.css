@@ -8,6 +8,10 @@ body{
 }
 
 /*-------Header Styles--------*/
+#home-header{
+    border:none;
+}
+
 .header-container{
     border-bottom: 5px solid #ffec00;
 }
@@ -17,11 +21,12 @@ body{
     padding-right:420px;
     margin-bottom: 20px;
     margin-top: 20px;
+    z-index: 5;
 }
 
 h1{
     font-family: "Roboto Slab", sans-serif;
-    color:#ebebeb;
+    color:#fff;
     letter-spacing: 3px;
     font-weight: bold;
 }
@@ -33,13 +38,18 @@ h1{
      height:100%;
      max-width: 240px;
      max-height:240px;
+     z-index: 5;
 }
 .nav-holder{
     margin:auto auto;
 }
 
+.home-nav{
+    background:transparent;
+}
+
 .nav-holder li a{
-    color:#ebebeb;
+    color:#fff;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 2px;
@@ -83,6 +93,22 @@ h1{
 #sign-up-btn{
     
 }
+
+/*------------------Home Page Hero image------------------*/
+#carouselExampleIndicators{
+    margin-top: -250px;
+    width:100%;
+    max-height:100vh;
+}
+
+.carousel-item{
+    height:100vh;
+}
+
+/*--------------Testimonails---------------------*/
+.testiomnial-container{
+    position: relative;
+    }
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -92,6 +118,10 @@ h1{
 }
 .background-color--platinum{
     background-color: #ebebeb;
+}
+
+.background-color--transparent{
+    background: transparent;
 }
 
 .uppercase{
@@ -123,6 +153,9 @@ h1{
 }
 
 /*------------Foooter Styling------------*/
+
+footer{
+    }
 
 footer p{
     color: #ebebeb;
@@ -205,6 +238,8 @@ footer p{
     }
 }
 @media only screen and (max-width:576px){
+  
+    
     #membership-link{
         margin-left:0px;
     }
@@ -218,4 +253,21 @@ footer p{
     padding-left:5px;
     padding-right: 5px;
     }
+
+    #carouselExampleIndicators{
+        margin-top:0px;
+    }
+
+    .carousel-item{
+        height:250px;
+    }
+    #home-header{
+        background-color: #0f0f0f;
+        border-bottom: 5px solid #ffec00;
+    }
+    .nav-holder li a{
+        white-space: normal;
+        display: block;
+        overflow: hidden;
+}
 }
