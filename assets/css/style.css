@@ -104,8 +104,36 @@ h1{
 
 /*--------------Testimonails---------------------*/
 .testiomnial-container{
-    position: relative;
+    margin: 0 auto;
     }
+
+.testiomnial-container h2{
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+    margin-top:20px;
+}
+
+.testimonial-item{
+    margin: 15px auto;
+}
+
+.testimonial-txt{
+    text-align: center;
+}
+
+.testimonial-img{
+
+}
+
+.testimonial-img img{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;  
+}
+
+.testimonial-txt p{
+    
+}
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -245,10 +273,6 @@ footer p{
 @media only screen and (max-width:576px){
   
     
-    #membership-link{
-        margin-left:0px;
-    }
-
     .footer-item p{
     font-size: 16px; 
     }
@@ -293,5 +317,9 @@ footer p{
 
    .navbar-dark, .navbar-toggler{
        border:none;
+   }
+
+   #classes-link{
+       margin-right:18px;
    }
 }
