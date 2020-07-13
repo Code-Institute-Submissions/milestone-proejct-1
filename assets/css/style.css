@@ -24,7 +24,6 @@ body{
 }
 
 h1{
-    font-family: "Roboto Slab", sans-serif;
     color:#fff;
     letter-spacing: 3px;
     font-weight: bold;
@@ -93,7 +92,15 @@ h1{
     align-content: center;
 }
 
+#carousel-nav{
+    max-height: 40vh;
+    border-bottom: 5px solid #ffec00;
+}
 
+#carousel-nav .carousel-item{
+        height:400px;     
+
+}
 /*------------------Home Page Hero image------------------*/
 .caroseul-container{
    
@@ -149,18 +156,54 @@ h1{
     text-align: center;
 }
 
-.testimonial-img{
-
-}
-
 .testimonial-img img{
     width: 300px;
     height:300px;
     border-radius: 50%;  
 }
 
-.testimonial-txt p{
-    
+/*--------------Membership--------------*/
+
+.membership-container{
+
+}
+
+.membership-item{
+
+}
+
+.membership-item p{
+    text-align: center;
+}
+.membership-header h2{
+    text-align: center;
+    margin:20px auto;
+    letter-spacing: 1px;
+}
+
+.membership-btn{
+    height:80px;
+    width: 150px;
+    border-radius: 15%;
+    background-color: #ffec00;
+    font-weight: bold;
+    font-size:20px;
+    border:3px solid #0f0f0f;
+}
+
+.medal{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-color:burlywood;
+    display: table;
+}
+.medal-txt{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size:20px;
 }
 /*------------------Colours/text----------------*/
 .background-color--black{
@@ -179,6 +222,11 @@ h1{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+/*----------------Headings----------------*/
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto Slab", sans-serif;
 }
 
 /*---------------Line Breaks-----------*/
@@ -278,38 +326,11 @@ footer p{
 
 @media screen and (min-width:1256px)
 {
-    #carousel-nav{
-        max-height:50vh;
-}
-
-#carousel-nav .carousel-item{
-        height:400px;
-        
-        
-}
-
-#carousel-nav .carousel-item img{
+    #carousel-nav .carousel-item img{
     position:relative;
-    bottom:300px;
-}
-}
-
-@media screen and (max-width:1256px)
-{
-    #carousel-nav{
-        max-height:50vh;
+    bottom:300px;}
 }
 
-#carousel-nav .carousel-item{
-        height:400px;
-        
-        
-}
-
-#carousel-nav .carousel-item img{
-    position:relative;
-}
-}
 
 
 @media only screen and (max-width:1024px){
