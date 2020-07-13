@@ -93,6 +93,7 @@ h1{
     align-content: center;
 }
 
+
 /*------------------Home Page Hero image------------------*/
 .caroseul-container{
    
@@ -273,6 +274,44 @@ footer p{
 }
 
 /*------------------Media--------------------*/
+
+
+@media screen and (min-width:1256px)
+{
+    #carousel-nav{
+        max-height:50vh;
+}
+
+#carousel-nav .carousel-item{
+        height:400px;
+        
+        
+}
+
+#carousel-nav .carousel-item img{
+    position:relative;
+    bottom:300px;
+}
+}
+
+@media screen and (max-width:1256px)
+{
+    #carousel-nav{
+        max-height:50vh;
+}
+
+#carousel-nav .carousel-item{
+        height:400px;
+        
+        
+}
+
+#carousel-nav .carousel-item img{
+    position:relative;
+}
+}
+
+
 @media only screen and (max-width:1024px){
     
     .logo{
