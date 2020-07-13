@@ -191,12 +191,19 @@ h1{
     border:3px solid #0f0f0f;
 }
 
-.medal{
-    height:150px;
-    width:150px;
-    border-radius: 50%;
-    background-color:burlywood;
+#small-membership-btn{
+    margin-top: 30px;
+    margin-bottom:60px;
+    height:100px;
+    width:250px;
+    font-size: 36px;
+    border-radius: 25%;
+}
+
+.medal{ 
     display: table;
+    margin-top:25px;
+    margin-bottom:60px;
 }
 .medal-txt{
     display: table-cell;
@@ -204,7 +211,36 @@ h1{
     vertical-align: middle;
     font-weight: bold;
     font-size:20px;
+    border: 3px solid #0f0f0f;
+    height:150px;
+    min-width: 110px;
+    border-radius: 50%;
 }
+
+#bronze{
+    background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#silver{
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#gold{
+    background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fefcea 0%,#f1da36 100%);
+}
+
+#platinum{
+    background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 50%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -408,11 +444,20 @@ footer p{
      height:100%;
      width:100%;
 }
-.logo{
-    height:100px;
-    width:120px;
-    padding-left:20px;
-    padding-top:10px;
+    .logo{
+        height:100px;
+        width:120px;
+        padding-left:20px;
+        padding-top:10px;
+    }
+
+    .medal-txt{
+    font-weight: bold;
+    font-size:18px;
+    border: 3px solid #0f0f0f;
+    height:120px;
+    min-width: 110px;
+    border-radius: 50%;
 }
 }
 @media only screen and (max-width:576px){
@@ -515,4 +560,25 @@ button:focus{
 .navbar{
     margin-top:-100px;
 }
+
+.medal{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.medal-txt{
+    font-weight: bold;
+    font-size:20px;
+    border: 3px solid #0f0f0f;
+    height:100px;
+    width:60%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.medal-txt span{
+    position: relative;
+    top:35%;
+}
+
 }
