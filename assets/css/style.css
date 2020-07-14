@@ -245,6 +245,19 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
 .vertical-split{
     border-left:2px solid #ffec00;
 }
+
+.staff-item{
+}
+
+.staff-img{
+    height:80%;
+    width:90%;
+    border-radius: 5px;
+}
+
+.staff-description{
+    margin-bottom:50px;
+}
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -583,6 +596,11 @@ button:focus{
 .medal-txt span{
     position: relative;
     top:35%;
+}
+
+.staff-img{
+    width:100%;
+    height:70%
 }
 
 }
