@@ -258,6 +258,11 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
 .staff-description{
     margin-bottom:50px;
 }
+
+#staff-para{
+    margin-top:10px;
+    margin-bottom:30px;
+}
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -600,7 +605,8 @@ button:focus{
 
 .staff-img{
     width:100%;
-    height:70%
+    height:60%;
+    margin-top:20px;
 }
 
 }
