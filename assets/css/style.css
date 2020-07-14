@@ -7,6 +7,17 @@ body{
     margin:0;
 }
 
+.row{
+    margin:0;
+    padding:0;
+}
+
+.col{
+    padding:0;
+}
+    
+
+
 /*-------Header Styles--------*/
 #home-header{
     border:none;
@@ -263,6 +274,25 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
     margin-top:10px;
     margin-bottom:30px;
 }
+
+/*--------------Classes----------------*/
+.classes-headings{
+    margin-top:20px;
+}
+
+.card-container{
+    margin:25px auto;
+}
+
+.card{
+    max-width:20rem;
+    border: 1px solid #0f0f0f;
+    margin:0 auto;
+}
+
+.card-img-top{
+    height:200px;
+}
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
@@ -287,6 +317,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Roboto Slab", sans-serif;
 }
 
+h2{
+    letter-spacing: 1px;
+}
 /*---------------Line Breaks-----------*/
 .short-hr{
     width:150px;
@@ -294,6 +327,15 @@ h1, h2, h3, h4, h5, h6{
     border-top:none;
     border-bottom: 5px solid #ffec00;
     margin-bottom: 20px;
+}
+
+.black-hr{
+    width:100px;
+    background-color:#fff;
+    border-top:none;
+    border-bottom: 2px solid #ffec00;
+    margin-top:5px;
+    margin-bottom: 10px;
 }
 
 /*------------------Buttons----------------*/
@@ -485,10 +527,10 @@ footer p{
 @media only screen and (max-width:576px){
 
     .logo{
-        margin-left:10px;
         height:75px;
         width:75px;
         padding:0;
+        margin-left:0px;
     }
 
     .h1-container{
@@ -499,7 +541,7 @@ footer p{
 
     .h1{
         margin-top:30px;
-        margin-left: -120px;
+        margin-left: 130px;
         }
   
 
@@ -608,5 +650,32 @@ button:focus{
     height:60%;
     margin-top:20px;
 }
+.card-container{
+    margin-left:auto;
+    margin-right:auto;
+}
+.ml-auto{
+    margin-left:170px!important;
+}
+    
+}
 
+@media only screen and (max-width:375px){
+    h1{
+        font-size:20px;
+    }
+
+    .testimonial-img img{
+        margin-left:75px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    h1{
+        margin-left:-80px;
+    }
+    
+    .testimonial-img img{
+        margin-left:55px;
+    }
 }
