@@ -696,6 +696,10 @@ button:focus{
 .ml-auto{
     margin-left:170px!important;
 }
+
+.map-container{
+    height:75%;
+}
     
 }
 
