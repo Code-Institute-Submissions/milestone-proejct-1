@@ -96,11 +96,9 @@
           </div>
           <div class="col-2 d-none d-sm-block button-holder">
             <div class ="d-none d-xl-inline-block">
-                    <a
-                      href="#"
-                      class="btn btn-standard"
-                      >Contact Us</a
-                    >
+                    <button class="btn btn-standard" data-toggle="modal" data-target="#signupmodal">
+                      Contact Us
+                      </button>
                 </div>
             </div>
         </div>
@@ -130,9 +128,10 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block hero-caption">
-            <h5>"If it doesn't challenge you, it won't change you"<br><br>Challenge yourself!</h5>
-            <button class="btn btn-hero">SIGN UP TODAY!</button>
+            <div class="carousel-caption hero-caption">
+            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
+            <h5 class="slogan"> Challenge Yourself!</h5>
+            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -141,9 +140,10 @@
               class="d-block w-100"
               alt="..."
             />
-             <div class="carousel-caption d-none d-md-block hero-caption">
-            <h5>"If it doesn't challenge you, it won't change you"<br><br>Challenge yourself!</h5>
-            <button class="btn btn-hero">SIGN UP TODAY!</button>
+             <div class="carousel-caption hero-caption">
+            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
+            <h5 class="slogan"> Challenge Yourself!</h5>
+            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -152,9 +152,10 @@
               class="d-block w-100"
               alt="..."
             />
-             <div class="carousel-caption d-none d-md-block hero-caption">
-            <h5>"If it doesn't challenge you, it won't change you"<br><br>Challenge yourself!</h5>
-            <button class="btn btn-hero">SIGN UP TODAY!</button>
+             <div class="carousel-caption hero-caption">
+            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
+            <h5 class="slogan"> Challenge Yourself!</h5>
+            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
             </div>
           </div>
           <div class="carousel-item">
@@ -163,9 +164,10 @@
               class="d-block w-100"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-block hero-caption">
-            <h5>"If it doesn't challenge you, it won't change you"<br><br>Challenge yourself!</h5>
-            <button class="btn btn-hero">SIGN UP TODAY!</button>
+            <div class="carousel-caption hero-caption">
+            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
+            <h5 class="slogan"> Challenge Yourself!</h5>
+            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
             </div>
           </div>
         </div>
@@ -273,6 +275,69 @@
         </div>
       </div>
     </footer>
+
+    <!----------------Start of modal sign up form---------------------->
+	<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Sign up to Gold's Gym Today</h5>
+					<button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+							<small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small>
+						</div>
+                        <div class="form-group">
+                            <label for="membership-type">Membership Type</label>
+                            <select class="form-control" id="membership-type">
+                            <option>Bronze - £19.99 p/m</option>
+                            <option>Silver - £24.99 p/m</option>
+                            <option>Gold - £29.99 p/m</option>
+                            <option>Platinum - £34.99 p/m</option>
+                            </select>
+                        </div>
+
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+							<div class="form-group">
+								<label for="repeatPassword">Repeat Password</label>
+								<input
+                  type="password"
+                  class="form-control"
+                  id="repeatPassword"
+                />
+              </div>
+
+								<button type="submit" class="btn btn-success">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End of modal sign-up form-->
     <!-------Link to Bootstraps Java Implementation - I did not make these files--------->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

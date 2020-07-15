@@ -497,6 +497,10 @@ footer p{
     width:100%;
 }
 
+    .hero-caption{
+        top:60%;
+    }
+
 .carousel-item{
     height:600px;
 }
@@ -583,7 +587,15 @@ footer p{
         margin-left: 130px;
         }
   
+    .hero-caption{
+        top:25%;
+    }
 
+    .hero-caption .slogan{
+        font-size:24px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
 
     .footer-item p{
     font-size: 16px; 
