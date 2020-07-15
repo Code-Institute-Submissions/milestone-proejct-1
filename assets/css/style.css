@@ -293,6 +293,45 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
 .card-img-top{
     height:200px;
 }
+
+/*----------------About Us-----------------*/
+#facilities-section{
+    height:100%vh;
+}
+
+.top-facilities-img{
+    max-width: 19rem;
+    margin: 10px auto;
+    display: block;
+    min-height: 220px;
+}
+
+.bottom-facilities-img{
+    max-width: 19rem;
+    margin:10px auto;
+    display: block;
+    min-height: 220px;
+}
+
+.table .thead-dark th{
+    background-color: #0f0f0f;
+    border-color:#0f0f0f;
+}
+/*---- Map CSS and HTMl taken from https://mdbootstrap.com/docs/jquery/javascript/google-maps/ -------*/
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:86%;
+margin-bottom:50px;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 /*------------------Colours/text----------------*/
 .background-color--black{
     background-color: #0f0f0f;
