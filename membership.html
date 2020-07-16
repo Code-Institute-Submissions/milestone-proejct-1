@@ -97,11 +97,13 @@
           </div>
           <div class="col-2 d-none d-sm-block button-holder">
             <div class ="d-none d-xl-inline-block">
-                    <a
-                      href="#"
-                      class="btn btn-standard"
-                      >Contact Us</a
-                    >
+                    <button
+                       class="btn btn-standard"
+                       data-toggle="modal"
+                       data-target="#contactmodal"
+              >
+                Contact Us
+              </button>
                 </div>
             </div>
         </div>
@@ -192,7 +194,8 @@
                 <p>Descritpion of membership. Descritpion of membership. Descritpion of membership.Descritpion of membership.Descritpion of membership.Descritpion of membership.</p> 
                 </div>
                 <div class="d-none d-lg-block col-lg-2">
-                <button class ="btn membership-btn">Join Now</button>
+                <button class ="btn membership-btn" data-toggle="modal"
+                       data-target="#signupmodal">Join Now</button>
                 </div>
             </div>
             <div class="row membership-item align-items-center">
@@ -203,7 +206,8 @@
                 <p>Descritpion of membership. Descritpion of membership. Descritpion of membership.Descritpion of membership.Descritpion of membership.Descritpion of membership.</p>
                 </div>
                 <div class="d-none d-lg-block col-lg-2">
-                <button class ="btn membership-btn">Join Now</button>
+                <button class ="btn membership-btn" data-toggle="modal"
+                       data-target="#signupmodal2">Join Now</button>
                 </div>
             </div>
             <div class="row membership-item align-items-center">
@@ -214,7 +218,8 @@
                 <p>Descritpion of membership. Descritpion of membership. Descritpion of membership.Descritpion of membership.Descritpion of membership.Descritpion of membership.</p> 
                 </div>
                 <div class="d-none d-lg-block col-lg-2">
-                <button class ="btn membership-btn">Join Now</button>
+                <button class ="btn membership-btn" data-toggle="modal"
+                       data-target="#signupmodal3">Join Now</button>
                 </div>
             </div>
             <div class="row membership-item align-items-center">
@@ -225,12 +230,14 @@
                 <p>Descritpion of membership. Descritpion of membership. Descritpion of membership.Descritpion of membership.Descritpion of membership.Descritpion of membership.</p>
                 </div>
                 <div class="d-none d-lg-block col-lg-2">
-                <button class ="btn membership-btn">Join Now</button>
+                <button class ="btn membership-btn" data-toggle="modal"
+                       data-target="#signupmodal4">Join Now</button>
                 </div>
             </div>
             <div class="row d-block d-lg-none">
                 <div class="col-12 text-center">
-                    <button class ="btn membership-btn" id="small-membership-btn">Join Now</button>
+                    <button class ="btn membership-btn" id="small-membership-btn" data-toggle="modal"
+                       data-target="#signupmodal">Join Now</button>
                 </div>
             </div>
         </div>
@@ -259,6 +266,459 @@
         </div>
       </div>
     </footer>
+    <!----------------Start of modal sign up form 1---------------------->
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign up to Gold's Gym Today</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-6">
+                    <label for="forename">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      id="forename"
+                    />
+                  </div>
+                  <div class="col-6">
+                  <label for="surname">Surname</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      id="surname"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="member@goldgym.co.uk"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+                </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="membership-type">Membership Type</label>
+                <select class="form-control" id="membership-type">
+                  <option>Bronze - £19.99 p/m</option>
+                  <option>Silver - £24.99 p/m</option>
+                  <option>Gold - £29.99 p/m</option>
+                  <option>Platinum - £34.99 p/m</option>
+                </select>
+              </div>
+              </div>
+              </div>
+
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="repeatPassword">Repeat Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="repeatPassword"
+                />
+              </div>
+              </div>
+              </div>
+                <div class="row">
+                <div class="col-12 text-center">
+              <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of modal sign-up form 1-->
+    <!----------------Start of modal sign up form 2--------------------->
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign up to Gold's Gym Today</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-6">
+                    <label for="forename2">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      id="forename2"
+                    />
+                  </div>
+                  <div class="col-6">
+                  <label for="surname2">Surname</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      id="surname2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputEmail2">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail2"
+                  placeholder="member@goldgym.co.uk"
+                  aria-describedby="emailHelp2"
+                />
+                <small id="emailHelp2" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+                </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="membership-type2">Membership Type</label>
+                <select class="form-control" id="membership-type2">
+                  <option>Bronze - £19.99 p/m</option>
+                  <option selected>Silver - £24.99 p/m</option>
+                  <option>Gold - £29.99 p/m</option>
+                  <option>Platinum - £34.99 p/m</option>
+                </select>
+              </div>
+              </div>
+              </div>
+
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputPassword2">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword2"
+                />
+              </div>
+              </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="repeatPassword2">Repeat Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="repeatPassword2"
+                />
+              </div>
+              </div>
+              </div>
+                <div class="row">
+                <div class="col-12 text-center">
+              <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of modal sign-up form 2-->
+        <!----------------Start of modal sign up form 3--------------------->
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign up to Gold's Gym Today</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-6">
+                    <label for="forename3">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      id="forename3"
+                    />
+                  </div>
+                  <div class="col-6">
+                  <label for="surname3">Surname</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      id="surname3"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputEmail3">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail3"
+                  placeholder="member@goldgym.co.uk"
+                  aria-describedby="emailHelp3"
+                />
+                <small id="emailHelp3" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+                </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="membership-type3">Membership Type</label>
+                <select class="form-control" id="membership-type3">
+                  <option>Bronze - £19.99 p/m</option>
+                  <option>Silver - £24.99 p/m</option>
+                  <option selected>Gold - £29.99 p/m</option>
+                  <option>Platinum - £34.99 p/m</option>
+                </select>
+              </div>
+              </div>
+              </div>
+
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputPassword3">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword3"
+                />
+              </div>
+              </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="repeatPassword3">Repeat Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="repeatPassword3"
+                />
+              </div>
+              </div>
+              </div>
+                <div class="row">
+                <div class="col-12 text-center">
+              <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of modal sign-up form 3-->
+        <!----------------Start of modal sign up form 4--------------------->
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign up to Gold's Gym Today</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-6">
+                    <label for="forename4">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                      id="forename4"
+                    />
+                  </div>
+                  <div class="col-6">
+                  <label for="surname4">Surname</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                      id="surname4"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputEmail4">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail4"
+                  placeholder="member@goldgym.co.uk"
+                  aria-describedby="emailHelp4"
+                />
+                <small id="emailHelp4" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+                </div>
+                </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="membership-type2">Membership Type</label>
+                <select class="form-control" id="membership-type4">
+                  <option>Bronze - £19.99 p/m</option>
+                  <option>Silver - £24.99 p/m</option>
+                  <option>Gold - £29.99 p/m</option>
+                  <option selected>Platinum - £34.99 p/m</option>
+                </select>
+              </div>
+              </div>
+              </div>
+
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="exampleInputPassword4">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword4"
+                />
+              </div>
+              </div>
+              </div>
+              <div class="form-group">
+              <div class="row">
+              <div class="col-12">
+                <label for="repeatPassword4">Repeat Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="repeatPassword4"
+                />
+              </div>
+              </div>
+              </div>
+                <div class="row">
+                <div class="col-12 text-center">
+              <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of modal sign-up form 4-->
+    <!--Start of contact modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Us</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="center-form">
+            <form>
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required /><br>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required /><br>
+                    <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Your Message" required></textarea><br>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-warning">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of contant modal-->
     <!-------Link to Bootstraps Java Implementation - I did not make these files--------->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

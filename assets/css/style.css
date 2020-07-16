@@ -112,6 +112,15 @@ h1{
         height:400px;     
 
 }
+
+.btn-warning{
+    background-color:#ffec00;
+}
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+}
 /*------------------Home Page Hero image------------------*/
 .caroseul-container{
    
