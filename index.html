@@ -11,11 +11,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+
     <!--Link to font awesome CSS files - I did not make these files-->
     <link
       rel="stylesheet"
@@ -29,7 +25,10 @@
 
   <body>
     <header>
-     <div class="container-fluid header-container background-color--transparent" id="home-header">
+      <div
+        class="container-fluid header-container background-color--transparent"
+        id="home-header"
+      >
         <div class="row justify-content-center">
           <div class="logo col-2">
             <a href="index.html"
@@ -39,7 +38,11 @@
           <div class="col-8 nav-container">
             <div class="row">
               <div class="col-12 h1-container">
-                <h1 class="uppercase">Gold's Gym<br/><span class="d-none d-md-block">Power and Strength</span></h1>
+                <h1 class="uppercase">
+                  Gold's Gym<br /><span class="d-none d-md-block"
+                    >Power and Strength</span
+                  >
+                </h1>
               </div>
             </div>
             <div class="row">
@@ -72,45 +75,60 @@
                           >About Us <span class="caret"></span
                         ></a>
                         <ul class="dropdown-menu" id="dropdown-menu">
-                          <li><a href="/about-us.html#philosophy-section">Philosophy</a></li>
-                          <li><a href="/about-us.html#facilities-section">Facilities</a></li>
-                          <li><a href="/about-us.html#location-section">Opening Times</a></li>
-                          <li><a href="/about-us.html#location-section">Find Us</a></li>
+                          <li>
+                            <a href="/about-us.html#philosophy-section"
+                              >Philosophy</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/about-us.html#facilities-section"
+                              >Facilities</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/about-us.html#location-section"
+                              >Opening Times</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/about-us.html#location-section"
+                              >Find Us</a
+                            >
+                          </li>
                         </ul>
                       </li>
                       <li class="list-inline-item">
                         <a href="staff.html">Staff</a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="membership.html" >Membership</a>
+                        <a href="membership.html">Membership</a>
                       </li>
                       <li class="list-inline-item">
-                        <a href="classes.html" id="classes-link" >Classes</a>
+                        <a href="classes.html" id="classes-link">Classes</a>
                       </li>
                     </ul>
                   </div>
                 </nav>
               </div>
             </div>
-            
           </div>
           <div class="col-2 d-none d-sm-block button-holder">
-            <div class ="d-none d-xl-inline-block">
-                    <button class="btn btn-standard" data-toggle="modal" data-target="#signupmodal">
-                      Contact Us
-                      </button>
-                </div>
+            <div class="d-none d-xl-inline-block">
+              <button
+                class="btn btn-standard"
+                data-toggle="modal"
+                data-target="#signupmodal"
+              >
+                Contact Us
+              </button>
             </div>
+          </div>
         </div>
       </div>
     </header>
     <!--Start of Carosuel of hero images-->
-    <section>
-      <div
-        id="carousel-home"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+    <section class="mobile-view">
+      <div id="carousel-home" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li
             data-target="#carousel-home"
@@ -129,9 +147,17 @@
               alt="..."
             />
             <div class="carousel-caption hero-caption">
-            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
-            <h5 class="slogan"> Challenge Yourself!</h5>
-            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
+              <h5 class="d-none d-md-block">
+                "If it doesn't challenge you, it won't change you"
+              </h5>
+              <h5 class="slogan">Challenge Yourself!</h5>
+              <button
+                class="btn btn-hero"
+                data-toggle="modal"
+                data-target="#signupmodal"
+              >
+                SIGN UP TODAY!
+              </button>
             </div>
           </div>
           <div class="carousel-item">
@@ -140,10 +166,18 @@
               class="d-block w-100"
               alt="..."
             />
-             <div class="carousel-caption hero-caption">
-            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
-            <h5 class="slogan"> Challenge Yourself!</h5>
-            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
+            <div class="carousel-caption hero-caption">
+              <h5 class="d-none d-md-block">
+                "If it doesn't challenge you, it won't change you"
+              </h5>
+              <h5 class="slogan">Challenge Yourself!</h5>
+              <button
+                class="btn btn-hero"
+                data-toggle="modal"
+                data-target="#signupmodal"
+              >
+                SIGN UP TODAY!
+              </button>
             </div>
           </div>
           <div class="carousel-item">
@@ -152,10 +186,18 @@
               class="d-block w-100"
               alt="..."
             />
-             <div class="carousel-caption hero-caption">
-            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
-            <h5 class="slogan"> Challenge Yourself!</h5>
-            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
+            <div class="carousel-caption hero-caption">
+              <h5 class="d-none d-md-block">
+                "If it doesn't challenge you, it won't change you"
+              </h5>
+              <h5 class="slogan">Challenge Yourself!</h5>
+              <button
+                class="btn btn-hero"
+                data-toggle="modal"
+                data-target="#signupmodal"
+              >
+                SIGN UP TODAY!
+              </button>
             </div>
           </div>
           <div class="carousel-item">
@@ -165,9 +207,17 @@
               alt="..."
             />
             <div class="carousel-caption hero-caption">
-            <h5 class="d-none d-md-block">"If it doesn't challenge you, it won't change you"</h5>
-            <h5 class="slogan"> Challenge Yourself!</h5>
-            <button class="btn btn-hero" data-toggle="modal" data-target="#signupmodal">SIGN UP TODAY!</button>
+              <h5 class="d-none d-md-block">
+                "If it doesn't challenge you, it won't change you"
+              </h5>
+              <h5 class="slogan">Challenge Yourself!</h5>
+              <button
+                class="btn btn-hero"
+                data-toggle="modal"
+                data-target="#signupmodal"
+              >
+                SIGN UP TODAY!
+              </button>
             </div>
           </div>
         </div>
@@ -193,64 +243,77 @@
     </section>
     <!--Start of Testimonails section-->
     <section>
-        <div class="container testiomnial-container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="uppercase"> Testimonials </h2>
-                    <hr class="short-hr">
-                </div>
-            </div>
-            <div class ="row testimonial-item align-items-center">
-                <div class ="d-block d-md-none col-12 col-md-4 offset-lg-1 testimonial-img">
-                     <img
-              src="assets/images/person-1.jpg"
-              alt="..."
-            />
-                </div>
-                <div class="col-12 col-md-6 offset-md-1 testimonial-txt">
-                <p> A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) </p>
-                </div>
-                <div class ="d-none d-md-inline-block col-md-4 offset-md-1 testimonial-img">
-                     <img
-              src="assets/images/person-1.jpg"
-              alt="..."
-            />
-                </div>
-            </div>
-            <div class ="row testimonial-item align-items-center">
-                <div class="col-12 col-md-4 offset-md-1 testimonial-img">
-                           <img
-              src="assets/images/person-4.jpg"
-              alt="..."
-            />
-                </div>
-                <div class =" col-12 col-md-6 offset-md-1 testimonial-txt">
-                     <p> A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) </p>
-                </div>
-            </div>
-            <div class ="row testimonial-item align-items-center">
-                <div class="d-none d-md-inline-block col-6 offset-1 testimonial-txt">
-                <p> A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) </p>
-                </div>
-                <div class ="d-none d-md-inline-block col-4 offset-1 testimonial-img">
-                           <img
-              src="assets/images/person-3.jpg"
-              alt="..."
-            />
-                </div>
-            </div>
-           <div class ="row testimonial-item align-items-center">
-                <div class=" d-none d-md-inline-block col-4 offset-1 testimonial-img">
-                           <img
-              src="assets/images/person-2.jpg"
-              alt="..."
-            />
-                </div>
-                <div class =" d-none d-md-inline-block col-6 offset-1 testimonial-txt">
-                     <p> A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) A block of text describing how amazing the gym is :) </p>
-                </div>
-            </div>
+      <div class="container testiomnial-container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="uppercase">Testimonials</h2>
+            <hr class="short-hr" />
+          </div>
         </div>
+        <div class="row testimonial-item align-items-center">
+          <div
+            class="d-block d-md-none col-12 col-md-4 offset-lg-1 testimonial-img"
+          >
+            <img src="assets/images/person-1.jpg" alt="..." />
+          </div>
+          <div class="col-12 col-md-6 offset-md-1 testimonial-txt">
+            <p>
+              A block of text describing how amazing the gym is :) A block of
+              text describing how amazing the gym is :) A block of text
+              describing how amazing the gym is :) A block of text describing
+              how amazing the gym is :) A block of text describing how amazing
+              the gym is :)
+            </p>
+          </div>
+          <div
+            class="d-none d-md-inline-block col-md-4 offset-md-1 testimonial-img"
+          >
+            <img src="assets/images/person-1.jpg" alt="..." />
+          </div>
+        </div>
+        <div class="row testimonial-item align-items-center">
+          <div class="col-12 col-md-4 offset-md-1 testimonial-img">
+            <img src="assets/images/person-4.jpg" alt="..." />
+          </div>
+          <div class="col-12 col-md-6 offset-md-1 testimonial-txt">
+            <p>
+              A block of text describing how amazing the gym is :) A block of
+              text describing how amazing the gym is :) A block of text
+              describing how amazing the gym is :) A block of text describing
+              how amazing the gym is :) A block of text describing how amazing
+              the gym is :)
+            </p>
+          </div>
+        </div>
+        <div class="row testimonial-item align-items-center">
+          <div class="d-none d-md-inline-block col-6 offset-1 testimonial-txt">
+            <p>
+              A block of text describing how amazing the gym is :) A block of
+              text describing how amazing the gym is :) A block of text
+              describing how amazing the gym is :) A block of text describing
+              how amazing the gym is :) A block of text describing how amazing
+              the gym is :)
+            </p>
+          </div>
+          <div class="d-none d-md-inline-block col-4 offset-1 testimonial-img">
+            <img src="assets/images/person-3.jpg" alt="..." />
+          </div>
+        </div>
+        <div class="row testimonial-item align-items-center">
+          <div class="d-none d-md-inline-block col-4 offset-1 testimonial-img">
+            <img src="assets/images/person-2.jpg" alt="..." />
+          </div>
+          <div class="d-none d-md-inline-block col-6 offset-1 testimonial-txt">
+            <p>
+              A block of text describing how amazing the gym is :) A block of
+              text describing how amazing the gym is :) A block of text
+              describing how amazing the gym is :) A block of text describing
+              how amazing the gym is :) A block of text describing how amazing
+              the gym is :)
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
@@ -277,12 +340,12 @@
     </footer>
 
     <!----------------Start of modal sign up form---------------------->
-	<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Sign up to Gold's Gym Today</h5>
-					<button
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign up to Gold's Gym Today</h5>
+            <button
               type="button"
               class="close"
               data-dismiss="modal"
@@ -290,54 +353,73 @@
             >
               <span aria-hidden="true">&times;</span>
             </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last name"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                 />
-							<small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small>
-						</div>
-                        <div class="form-group">
-                            <label for="membership-type">Membership Type</label>
-                            <select class="form-control" id="membership-type">
-                            <option>Bronze - £19.99 p/m</option>
-                            <option>Silver - £24.99 p/m</option>
-                            <option>Gold - £29.99 p/m</option>
-                            <option>Platinum - £34.99 p/m</option>
-                            </select>
-                        </div>
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="membership-type">Membership Type</label>
+                <select class="form-control" id="membership-type">
+                  <option>Bronze - £19.99 p/m</option>
+                  <option>Silver - £24.99 p/m</option>
+                  <option>Gold - £29.99 p/m</option>
+                  <option>Platinum - £34.99 p/m</option>
+                </select>
+              </div>
 
-						<div class="form-group">
-							<label for="exampleInputPassword1">Password</label>
-							<input
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
                   type="password"
                   class="form-control"
                   id="exampleInputPassword1"
                 />
               </div>
-							<div class="form-group">
-								<label for="repeatPassword">Repeat Password</label>
-								<input
+              <div class="form-group">
+                <label for="repeatPassword">Repeat Password</label>
+                <input
                   type="password"
                   class="form-control"
                   id="repeatPassword"
                 />
               </div>
 
-								<button type="submit" class="btn btn-success">Submit</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--End of modal sign-up form-->
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of modal sign-up form-->
     <!-------Link to Bootstraps Java Implementation - I did not make these files--------->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -350,6 +432,11 @@
       crossorigin="anonymous"
     ></script>
 
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
