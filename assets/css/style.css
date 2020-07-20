@@ -278,9 +278,10 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
 }
 
 .staff-img{
-    height:80%;
+    height:60%;
     width:90%;
     border-radius: 5px;
+    margin-top:45px;
 }
 
 .staff-description{
@@ -292,6 +293,9 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
     margin-bottom:30px;
 }
 
+#staff-h2{
+    margin-top:20px;
+}
 /*--------------Classes----------------*/
 .classes-headings{
     margin-top:20px;
@@ -328,6 +332,10 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
     color:#ffec00;
 }
 /*----------------About Us-----------------*/
+#philosophy-section{
+    margin-bottom: 20px;
+}
+
 #facilities-section{
    
 }
@@ -386,6 +394,10 @@ position:absolute;
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.text-bold{
+    font-weight: bold;
 }
 
 /*----------------Headings----------------*/
@@ -739,9 +751,15 @@ button:focus{
 }
 
 .staff-img{
-    width:100%;
-    height:60%;
-    margin-top:20px;
+    height:100%;
+    margin-top:0;
+    margin-left:20px;
+    
+}
+
+.staff-description{
+    margin-bottom: 20px;
+    margin-top:10px;
 }
 .card-container{
     margin-left:auto;
