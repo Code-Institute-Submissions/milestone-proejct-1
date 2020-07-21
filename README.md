@@ -96,7 +96,7 @@ This project used the languages HTML5 and CSS3.
 - [GitHub](https://github.com/) - GitHub was used to store the project and to deploy it using the master branch on the github site
 - [Bootstrap](https://getbootstrap.com/) - The grid structure was used to structure the website and make it responsive and some default items in bootstrap were used as a starting point
 - [FontAwesome](https://fontawesome.com/) - Font Awesome was used for the social media icons
-- [unsplash] (https://unsplash.com/s/photos/gym) - Used for images
+- [Unsplash](https://unsplash.com/s/photos/gym) - Used for images
 
 
 ## Testing
