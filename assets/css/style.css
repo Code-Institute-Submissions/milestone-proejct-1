@@ -322,7 +322,7 @@ background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1
 }
 
 #download-icon{
-    font-style: bold;
+    font-weight: bold;
     text-decoration: none;
     font-size:30px;
     color:#0f0f0f;
@@ -758,7 +758,7 @@ button:focus{
 }
 
 .staff-description{
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     margin-top:10px;
 }
 .card-container{

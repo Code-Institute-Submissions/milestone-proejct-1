@@ -138,7 +138,10 @@ This project used the languages HTML5 and CSS3.
 
 ## Deployment
 ---
-The site is hosted usig GitHub and has been deployed directly from the master branch. The master branch was the only branch used for this website.
+The site is hosted usig GitHub and has been deployed directly from the master branch. The master branch was the only branch used for this website. I deployed the site by:
+1. On GitHuB navigating to my sites repositroy.
+2. Whilst in the first-milestone-project repositroy click on settings.
+3. Scroll down until you come to the "source" drop-down menu and select master branch as the publishing source.
 
 ## Credits
 ---
@@ -149,7 +152,7 @@ The site is hosted usig GitHub and has been deployed directly from the master br
 - The code institue mini projects for the resume and the whiksey project were also referenced on occasions
 
 ### **Media**
-- All background images taken from [unsplash] (https://unsplash.com/s/photos/gym)
+- All background images taken from [unsplash](https://unsplash.com/s/photos/gym)
 - Images of celebreties and people taken from respective wikipedia pages
 - Gym logo used taken from [Gold's Gym](https://www.goldsgym.com/) - I own no rights to this image. 
 
